@@ -1,0 +1,2 @@
+{"data_dir": "/var/lib/pipeline", "mock_host": "127.0.0.1", "mock_port": 7100,
+ "cloud_url": "https://YOUR-CLOUD-HOST", "token": "CHANGE-ME", "device_id": "pi4-01"}

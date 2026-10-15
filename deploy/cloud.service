@@ -1,0 +1,11 @@
+[Unit]
+Description=Pipeline cloud service
+After=network.target
+[Service]
+WorkingDirectory=/opt/pipeline
+ExecStart=/usr/bin/python3 cloud/server.py
+Environment=PIPELINE_PORT=8080 PIPELINE_CLOUD_DB=/var/lib/pipeline-cloud/cloud.db
+EnvironmentFile=/etc/pipeline-cloud.env
+Restart=always
+[Install]
+WantedBy=multi-user.target

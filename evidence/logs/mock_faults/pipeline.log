@@ -1,0 +1,37 @@
+2026-10-15 16:48:34,987 collector INFO connected to mock 127.0.0.1:9022
+2026-10-15 16:48:34,990 collector INFO new mock session b69e0a18
+2026-10-15 16:48:35,035 uploader WARNING mode offline -> online
+2026-10-15 16:48:42,672 collector WARNING discarding corrupt reply (crc mismatch); will re-read
+2026-10-15 16:48:47,710 collector WARNING discarding corrupt reply (crc mismatch); will re-read
+2026-10-15 16:48:58,755 collector WARNING loss session=b69e0a18 sensor=2 9601..9659 reason=sensor_dropout
+2026-10-15 16:48:58,858 collector WARNING loss session=b69e0a18 sensor=2 9660..9700 reason=sensor_dropout
+2026-10-15 16:48:58,960 collector WARNING loss session=b69e0a18 sensor=2 9701..9741 reason=sensor_dropout
+2026-10-15 16:48:59,063 collector WARNING loss session=b69e0a18 sensor=2 9742..9782 reason=sensor_dropout
+2026-10-15 16:48:59,166 collector WARNING loss session=b69e0a18 sensor=2 9783..9824 reason=sensor_dropout
+2026-10-15 16:48:59,269 collector WARNING loss session=b69e0a18 sensor=2 9825..9865 reason=sensor_dropout
+2026-10-15 16:48:59,371 collector WARNING loss session=b69e0a18 sensor=2 9866..9905 reason=sensor_dropout
+2026-10-15 16:48:59,473 collector WARNING loss session=b69e0a18 sensor=2 9906..9946 reason=sensor_dropout
+2026-10-15 16:48:59,575 collector WARNING loss session=b69e0a18 sensor=2 9947..9987 reason=sensor_dropout
+2026-10-15 16:48:59,677 collector WARNING loss session=b69e0a18 sensor=2 9988..10028 reason=sensor_dropout
+2026-10-15 16:48:59,780 collector WARNING loss session=b69e0a18 sensor=2 10029..10069 reason=sensor_dropout
+2026-10-15 16:48:59,883 collector WARNING loss session=b69e0a18 sensor=2 10070..10110 reason=sensor_dropout
+2026-10-15 16:48:59,985 collector WARNING loss session=b69e0a18 sensor=2 10111..10151 reason=sensor_dropout
+2026-10-15 16:49:00,087 collector WARNING loss session=b69e0a18 sensor=2 10152..10192 reason=sensor_dropout
+2026-10-15 16:49:00,190 collector WARNING loss session=b69e0a18 sensor=2 10193..10233 reason=sensor_dropout
+2026-10-15 16:49:00,292 collector WARNING loss session=b69e0a18 sensor=2 10234..10274 reason=sensor_dropout
+2026-10-15 16:49:00,395 collector WARNING loss session=b69e0a18 sensor=2 10275..10315 reason=sensor_dropout
+2026-10-15 16:49:00,498 collector WARNING loss session=b69e0a18 sensor=2 10316..10357 reason=sensor_dropout
+2026-10-15 16:49:00,602 collector WARNING loss session=b69e0a18 sensor=2 10358..10398 reason=sensor_dropout
+2026-10-15 16:49:00,704 collector WARNING loss session=b69e0a18 sensor=2 10399..10439 reason=sensor_dropout
+2026-10-15 16:49:00,806 collector WARNING loss session=b69e0a18 sensor=2 10440..10480 reason=sensor_dropout
+2026-10-15 16:49:00,910 collector WARNING loss session=b69e0a18 sensor=2 10481..10521 reason=sensor_dropout
+2026-10-15 16:49:01,012 collector WARNING loss session=b69e0a18 sensor=2 10522..10562 reason=sensor_dropout
+2026-10-15 16:49:01,115 collector WARNING loss session=b69e0a18 sensor=2 10563..10603 reason=sensor_dropout
+2026-10-15 16:49:01,217 collector WARNING loss session=b69e0a18 sensor=2 10604..10644 reason=sensor_dropout
+2026-10-15 16:49:01,320 collector WARNING loss session=b69e0a18 sensor=2 10645..10685 reason=sensor_dropout
+2026-10-15 16:49:01,423 collector WARNING loss session=b69e0a18 sensor=2 10686..10726 reason=sensor_dropout
+2026-10-15 16:49:01,525 collector WARNING loss session=b69e0a18 sensor=2 10727..10767 reason=sensor_dropout
+2026-10-15 16:49:01,628 collector WARNING loss session=b69e0a18 sensor=2 10768..10800 reason=sensor_dropout
+2026-10-15 16:49:07,616 collector WARNING loss session=b69e0a18 sensor=1 13164..None reason=mock_session_restarted:unread_data_of_old_session
+2026-10-15 16:49:07,617 collector WARNING loss session=b69e0a18 sensor=2 13164..None reason=mock_session_restarted:unread_data_of_old_session
+2026-10-15 16:49:07,617 collector INFO new mock session 9ee5e3e8

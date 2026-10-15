@@ -1,0 +1,58 @@
+{
+ "all_pass": true,
+ "scenarios": [
+  {
+   "scenario": "clean signal 60 s",
+   "windows": 60,
+   "mismatches": 0,
+   "examples": [],
+   "hr_windows": 56,
+   "pass": true
+  },
+  {
+   "scenario": "signal 120 s with 30 gaps, in order",
+   "windows": 120,
+   "mismatches": 0,
+   "examples": [],
+   "hr_windows": 40,
+   "pass": true
+  },
+  {
+   "scenario": "same, records shuffled (out-of-order arrival)",
+   "windows": 120,
+   "mismatches": 0,
+   "examples": [],
+   "hr_windows": 40,
+   "pass": true
+  },
+  {
+   "scenario": "session ending mid-window",
+   "windows": 31,
+   "mismatches": 0,
+   "examples": [],
+   "hr_windows": 20,
+   "pass": true
+  },
+  {
+   "scenario": "ramp 20 s",
+   "windows": 20,
+   "mismatches": 0,
+   "examples": [],
+   "hr_windows": 0,
+   "pass": true
+  },
+  {
+   "scenario": "clean signal 400 s (heart-rate schedule)",
+   "windows": 400,
+   "mismatches": 0,
+   "examples": [],
+   "hr_windows": 396,
+   "pass": true,
+   "hr_means": {
+    "minutes_0_2_expected_60": 60.0,
+    "minutes_2_4_expected_90": 90.0,
+    "minutes_4_6_expected_72": 72.0
+   }
+  }
+ ]
+}

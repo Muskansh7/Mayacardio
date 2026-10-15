@@ -1,0 +1,1 @@
+{"mode": "ramp", "seed": 7, "duration": 60.0, "sessions": [{"session_id": "b69e0a18", "start_wall": 1792082914.6036866, "speed": 1.0, "generated": {"1": 13202, "2": 13202}, "dropouts": {"1": [], "2": [[9601, 10800]]}}, {"session_id": "9ee5e3e8", "start_wall": 1792082947.6097622, "speed": 1.0, "generated": {"1": 24000, "2": 24000}, "dropouts": {"1": [], "2": []}}]}

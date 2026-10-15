@@ -1,0 +1,30 @@
+2026-10-15 17:46:57,179 collector INFO connected to mock 127.0.0.1:9012
+2026-10-15 17:46:57,181 collector INFO new mock session aa2c0dea
+2026-10-15 17:46:57,222 uploader WARNING mode offline -> online
+2026-10-15 16:47:47,635 collector WARNING mock connection problem: mock closed connection
+2026-10-15 16:47:47,836 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:47:48,236 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:47:49,037 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:47:50,637 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:47:52,638 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:47:54,638 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:47:56,639 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:47:58,639 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:00,640 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:02,640 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:04,641 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:06,642 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:08,643 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:10,643 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:12,644 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:14,644 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:16,645 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:18,645 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:20,646 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:22,647 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:24,647 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:26,648 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:28,648 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:30,651 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:32,652 collector WARNING mock connection problem: [Errno 111] Connection refused
+2026-10-15 16:48:34,006 MainThread INFO stopping

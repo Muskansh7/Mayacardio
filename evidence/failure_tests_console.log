@@ -1,0 +1,96 @@
+== scenario baseline
+  [baseline_online    0.8s] started 
+{
+ "checks": {
+  "aa2c0dea/device": {
+   "session": "aa2c0dea",
+   "sensor1": {
+    "generated": 20200,
+    "exported": 20280,
+    "listed_lost": 0,
+    "silent_loss_ranges": [],
+    "silent_lost": 0,
+    "exported_from_dropout": 0,
+    "loss_overlapping_data": 0,
+    "loss_reasons": [],
+    "exported_beyond_generated": 0
+   },
+   "sensor2": {
+    "generated": 20200,
+    "exported": 20281,
+    "listed_lost": 0,
+    "silent_loss_ranges": [],
+    "silent_lost": 0,
+    "exported_from_dropout": 0,
+    "loss_overlapping_data": 0,
+    "loss_reasons": [],
+    "exported_beyond_generated": 0
+   },
+   "duplicates": 0,
+   "wrong_values": 0,
+   "pass": true
+  },
+  "aa2c0dea/cloud": {
+   "session": "aa2c0dea",
+   "sensor1": {
+    "generated": 20200,
+    "exported": 20280,
+    "listed_lost": 0,
+    "silent_loss_ranges": [],
+    "silent_lost": 0,
+    "exported_from_dropout": 0,
+    "loss_overlapping_data": 0,
+    "loss_reasons": [],
+    "exported_beyond_generated": 0
+   },
+   "sensor2": {
+    "generated": 20200,
+    "exported": 20281,
+    "listed_lost": 0,
+    "silent_loss_ranges": [],
+    "silent_lost": 0,
+    "exported_from_dropout": 0,
+    "loss_overlapping_data": 0,
+    "loss_reasons": [],
+    "exported_beyond_generated": 0
+   },
+   "duplicates": 0,
+   "wrong_values": 0,
+   "pass": true
+  }
+ },
+ "status": {
+  "mode": "online",
+  "catching_up": false,
+  "session": "aa2c0dea",
+  "samples_saved": 40561,
+  "samples_in_cloud": 40561,
+  "backlog": 0,
+  "backlog_records": 0,
+  "loss_ranges": 0,
+  "samples_lost_bounded": 0,
+  "process_running": true
+ },
+ "online_latency": {
+  "windows": 50,
+  "max_s": 0.36,
+  "p95_s": 0.31,
+  "median_s": 0.18,
+  "over_5s": 0
+ },
+ "online_windows": 50,
+ "heart_rates_sample": [
+  60.0,
+  60.0,
+  60.0,
+  60.0,
+  60.0,
+  60.0,
+  60.0,
+  60.0
+ ],
+ "data_checks_pass": true,
+ "environment": "x86-64 Linux container (1 vCPU), stand-in mock; NOT the Raspberry Pi 4"
+}
+== scenario mock_faults
+  [mock_faults    0.8s] started 

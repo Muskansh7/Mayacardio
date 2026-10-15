@@ -1,0 +1,13 @@
+[Unit]
+Description=Biosignal pipeline
+After=network.target
+[Service]
+WorkingDirectory=/opt/pipeline
+ExecStart=/usr/bin/python3 -m pipeline run
+Environment=PIPELINE_CONFIG=/etc/pipeline/config.json
+Restart=always
+RestartSec=1
+CPUQuota=400%
+MemoryMax=2G
+[Install]
+WantedBy=multi-user.target
